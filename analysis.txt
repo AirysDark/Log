@@ -1,0 +1,1843 @@
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\AgentController.cs
+Namespace: AIStudio.Agents
+Classes:
+  AgentController
+Methods:
+  Start
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\AgentCoordinator.cs
+Namespace: AIStudio.Agents
+Classes:
+  AgentCoordinator
+Methods:
+  Execute
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\AICommandDispatcher.cs
+Namespace: AIStudio.Agents
+Classes:
+  AICommandDispatcher
+Usings:
+  AIStudio.Core.BuildSystem
+  System
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\AISidebar.cs
+Namespace: AIStudio.Agents
+Classes:
+  AISidebar
+Usings:
+  AIStudio.Core.Runtime
+  System
+  System.Threading.Tasks
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\AITask.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  AITask
+Fields:
+  Description
+  TargetFile
+  Action
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\ArchitecturePlanner.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ArchitecturePlanner
+Methods:
+  Plan
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\AutoFixEngine.cs
+Namespace: AIStudio.Agents
+Classes:
+  AutoFixEngine
+Usings:
+  AIStudio.Core.Runtime
+  System
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\AutonomousController.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  AutonomousController
+Methods:
+  Start
+Usings:
+  System.Threading
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\AutonomousExecutor.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  AutonomousExecutor
+Methods:
+  Run
+Usings:
+  AIStudio.AIEngine.Planner
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\BackgroundAgent.cs
+Namespace: AIStudio.Agents
+Classes:
+  BackgroundAgent
+Methods:
+  Start
+Usings:
+  System.Threading
+  AIStudio.AIEngine.Graph
+  AIStudio.AIEngine.Memory
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\BackgroundAIService.cs
+Namespace: AIStudio.Agents
+Classes:
+  BackgroundAIService
+Usings:
+  AIStudio.AIEngine.CodeAnalysis
+  AIStudio.Core.Runtime
+  System
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\CodeAgent.cs
+Namespace: AIStudio.Agents
+Classes:
+  CodeAgent
+Usings:
+  AIStudio.Core.Runtime
+  System
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\CoderAgent.cs
+Namespace: AIStudio.Agents
+Classes:
+  CoderAgent
+Methods:
+  GenerateCode
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\DependencyPlanner.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  DependencyPlanner
+Methods:
+  Add
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\EmbeddingGenerator.cs
+Namespace: AIStudio.Agents
+Classes:
+  EmbeddingGenerator
+Methods:
+  Generate
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\InlineSuggestionEngine.cs
+Namespace: AIStudio.Agents
+Classes:
+  InlineSuggestionEngine
+Usings:
+  AIStudio.Core.Runtime
+  System
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\ModuleGenerator.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ModuleGenerator
+Methods:
+  CreateModule
+Usings:
+  System.IO
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\PlannerAgent.cs
+Namespace: AIStudio.Agents
+Classes:
+  PlannerAgent
+Methods:
+  CreatePlan
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\ProjectWatcher.cs
+Namespace: AIStudio.Agents
+Classes:
+  ProjectWatcher
+Methods:
+  Start
+Usings:
+  System
+  System.IO
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\ReviewerAgent.cs
+Namespace: AIStudio.Agents
+Classes:
+  ReviewerAgent
+Methods:
+  Approve
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\SuggestionEngine.cs
+Namespace: AIStudio.Agents
+Classes:
+  SuggestionEngine
+Usings:
+  AIStudio.Core.Runtime
+  System
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\SuggestionWorker.cs
+Namespace: AIStudio.Agents
+Classes:
+  SuggestionWorker
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\TaskExecutor.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  TaskExecutor
+Methods:
+  Execute
+Usings:
+  AIStudio.AIEngine.Patch
+  AIStudio.AIEngine.Planner.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\TaskGenerator.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  TaskGenerator
+Methods:
+  Generate
+Usings:
+  AIStudio.AIEngine.Context
+  AIStudio.AIEngine.Planner
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\TaskPlan.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  TaskPlan
+Methods:
+  Add
+Usings:
+  System.Collections.Generic
+  AIStudio.AIEngine.Planner.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\TaskPlanner.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  TaskPlanner
+Methods:
+  CreatePlan
+Usings:
+  AIStudio.AIEngine.Models
+  AIStudio.AIEngine.Planner.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\TesterAgent.cs
+Namespace: AIStudio.Agents
+Classes:
+  TesterAgent
+Methods:
+  CreateTest
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\ContextBuilder.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ContextBuilder
+Methods:
+  BuildContext
+Usings:
+  System.Text
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\ContextRetriever.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ContextRetriever
+Methods:
+  Retrieve
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\ContextRouter.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ContextRouter
+Usings:
+  System.Threading.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\EmbeddingGenerator.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  EmbeddingGenerator
+Methods:
+  Generate
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\FileSummary.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  FileSummary
+Fields:
+  FilePath
+  Summary
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\FunctionSummary.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  FunctionSummary
+Fields:
+  Name
+  Description
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\RepositorySummary.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  RepositorySummary
+Methods:
+  Generate
+Fields:
+  Summary
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\SnapshotDiff.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  SnapshotDiff
+Methods:
+  Compare
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\SnapshotManager.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  SnapshotManager
+Methods:
+  Add
+  GetLatest
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\VectorMemory.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  VectorMemory
+Methods:
+  Store
+  Get
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\VectorStore.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  VectorStore
+Methods:
+  Store
+  Get
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Memory\WorkspaceSnapshot.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  WorkspaceSnapshot
+Fields:
+  Timestamp
+Usings:
+  System
+  System.Collections.Generic
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\AIClient.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  AIClient
+Usings:
+  System.Net.Http
+  System.Text
+  System.Threading.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\GPUConfig.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  GPUConfig
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\LlamaServerConnector.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  LlamaServerConnector
+Usings:
+  System.Net.Http
+  System.Text
+  System.Threading.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\LocalLLMServer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  LocalLLMServer
+Methods:
+  Start
+  Stop
+Usings:
+  System.Diagnostics
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\LocalModelRunner.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  LocalModelRunner
+Methods:
+  Run
+Usings:
+  System.Diagnostics
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\ModelDownloader.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ModelDownloader
+Usings:
+  System.Net.Http
+  System.IO
+  System.Threading.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\ModelManager.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ModelManager
+Methods:
+  Register
+  GetModel
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\ModelRegistry.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ModelRegistry
+Methods:
+  Register
+  Get
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\ModelRouter.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ModelRouter
+Methods:
+  Run
+Usings:
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\MultiModelRouter.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  MultiModelRouter
+Methods:
+  Register
+  GetEndpoint
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\OnlineModelRunner.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  OnlineModelRunner
+Usings:
+  System.Net.Http
+  System.Threading.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Models\TokenStreamer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  TokenStreamer
+Usings:
+  System.Net.Http
+  System.Threading.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\ArchitectureMap.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ArchitectureMap
+Methods:
+  AddModule
+  AddDependency
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\ASTSearch.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ASTSearch
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  Microsoft.CodeAnalysis
+  Microsoft.CodeAnalysis.CSharp.Syntax
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\BuildAnalyzer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  BuildAnalyzer
+Methods:
+  Analyze
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\BuildRunner.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  BuildRunner
+Methods:
+  Run
+Usings:
+  System.Diagnostics
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\CallGraphBuilder.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  CallGraphBuilder
+Methods:
+  AddCall
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\ChangeTracker.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ChangeTracker
+Methods:
+  Record
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\ClassDesigner.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ClassDesigner
+Methods:
+  CreateClass
+Usings:
+  System
+  System.IO
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\ClassMap.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ClassMap
+Methods:
+  AddRelation
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\CodeIndexer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  CodeIndexer
+Methods:
+  Index
+Usings:
+  System.IO
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\DebugAnalyzer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  DebugAnalyzer
+Methods:
+  AnalyzeError
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\DependencyGraph.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  DependencyGraph
+Methods:
+  AddDependency
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\DiffViewer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  DiffViewer
+Usings:
+  System
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\ErrorAnalyzer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ErrorAnalyzer
+Usings:
+  System
+  System.Collections.Generic
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\ErrorParser.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ErrorParser
+Methods:
+  Parse
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\FindReferences.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  FindReferences
+Methods:
+  Search
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\FindReferencesService.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  FindReferencesService
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  Microsoft.CodeAnalysis
+  Microsoft.CodeAnalysis.FindSymbols
+  System.Collections.Generic
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\GoToDefinition.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  GoToDefinition
+Methods:
+  Navigate
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\GoToDefinitionService.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  GoToDefinitionService
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  Microsoft.CodeAnalysis
+  Microsoft.CodeAnalysis.CSharp
+  Microsoft.CodeAnalysis.FindSymbols
+  System.Linq
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\MultiFileRefactor.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  MultiFileRefactor
+Methods:
+  Apply
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\NavigationService.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  NavigationService
+Methods:
+  GoToSymbol
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\PatchEngine.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  PatchEngine
+Methods:
+  ApplyPatch
+Usings:
+  System.IO
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\ProjectAnalyzer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ProjectAnalyzer
+Methods:
+  ReadFile
+Usings:
+  System.IO
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\ProjectIndexer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ProjectIndexer
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  System.Collections.Generic
+  System.IO
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\ProjectScaffolder.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  ProjectScaffolder
+Methods:
+  Build
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\RefactoringEngine.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  RefactoringEngine
+Usings:
+  AIStudio.Core.Runtime
+  System
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\RenameRefactor.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  RenameRefactor
+Methods:
+  RenameSymbol
+Usings:
+  System.IO
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\RenameSymbolService.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  RenameSymbolService
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  Microsoft.CodeAnalysis
+  Microsoft.CodeAnalysis.Rename
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\RollbackService.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  RollbackService
+Methods:
+  Restore
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\RoslynCompletionEngine.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  RoslynCompletionEngine
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  Microsoft.CodeAnalysis.Text
+  Microsoft.CodeAnalysis
+  Microsoft.CodeAnalysis.CSharp
+  Microsoft.CodeAnalysis.Completion
+  Microsoft.CodeAnalysis.Host.Mef
+  System.Linq
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\RoslynDiagnostics.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  RoslynDiagnostics
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  Microsoft.CodeAnalysis
+  Microsoft.CodeAnalysis.CSharp
+  System.Collections.Generic
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\RoslynRefactorEngine.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  RoslynRefactorEngine
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  Microsoft.CodeAnalysis
+  Microsoft.CodeAnalysis.CSharp
+  Microsoft.CodeAnalysis.CSharp.Syntax
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\RoslynWorkspaceLoader.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  RoslynWorkspaceLoader
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  Microsoft.CodeAnalysis.MSBuild
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\SemanticSearch.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  SemanticSearch
+Methods:
+  Search
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\SemanticSearchEngine.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  SemanticSearchEngine
+Methods:
+  Search
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\SymbolAnalyzer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  SymbolAnalyzer
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  Microsoft.CodeAnalysis
+  Microsoft.CodeAnalysis.CSharp.Syntax
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\SymbolGraph.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  SymbolGraph
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  System.Collections.Generic
+  System.IO
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\SymbolIndexer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  SymbolIndexer
+Methods:
+  AddClass
+  AddFunction
+Usings:
+  System.Collections.Generic
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\SyntaxTreeAnalyzer.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  SyntaxTreeAnalyzer
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  Microsoft.CodeAnalysis.CSharp
+  Microsoft.CodeAnalysis
+  System.IO
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\TestGenerator.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  TestGenerator
+Methods:
+  Generate
+  Test1
+Usings:
+  System.IO
+  System
+  System
+  System
+  System
+  System
+  System
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\TestRunner.cs
+Namespace: AIStudio.AIEngine
+Classes:
+  TestRunner
+Methods:
+  Run
+Usings:
+  System.Diagnostics
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\BuildSystem.cs
+Namespace: AIStudio.Core
+Classes:
+  BuildSystem
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  System.Diagnostics
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\CodeEditor.cs
+Namespace: AIStudio.Core
+Classes:
+  CodeEditor
+Methods:
+  GetText
+  SetText
+Fields:
+  host
+  Editor
+Usings:
+  System.Windows.Forms
+  System.Windows.Forms.Integration
+  ICSharpCode.AvalonEdit
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\CommandPalette.cs
+Namespace: AIStudio.Core
+Classes:
+  CommandPalette
+Usings:
+  System
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\DependencyGraph.cs
+Namespace: AIStudio.Core
+Classes:
+  DependencyGraph
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  System.Collections.Generic
+  System.IO
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\GhostTextOverlay.cs
+Namespace: AIStudio.Core
+Classes:
+  GhostTextOverlay
+Methods:
+  ShowSuggestion
+Usings:
+  ICSharpCode.AvalonEdit
+  System.Windows.Media
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\IntelliSensePopup.cs
+Namespace: AIStudio.Core
+Classes:
+  IntelliSensePopup
+Methods:
+  SetItems
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\IntelliSenseService.cs
+Namespace: AIStudio.Core
+Classes:
+  IntelliSenseService
+Usings:
+  Microsoft.CodeAnalysis
+  Microsoft.CodeAnalysis.Completion
+  System.Linq
+  System.Threading.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\LocalRuntimeManager.cs
+Namespace: AIStudio.Core
+Classes:
+  LocalRuntimeManager
+Methods:
+  Start
+  Stop
+Usings:
+  System.Diagnostics
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\MonacoBridge.cs
+Namespace: AIStudio.Core
+Classes:
+  MonacoBridge
+Usings:
+  Microsoft.Web.WebView2.WinForms
+  System.Threading.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\MonacoEditor.cs
+Namespace: AIStudio.Core
+Classes:
+  MonacoEditor
+Usings:
+  Microsoft.Web.WebView2.WinForms
+  System.Windows.Forms
+  System.IO
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\PatchDiffViewer.cs
+Namespace: AIStudio.Core
+Classes:
+  PatchDiffViewer
+Methods:
+  LoadDiff
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\Program.cs
+Namespace: AIStudio.Core
+Classes:
+  Program
+Usings:
+  AIStudio.UI
+  System
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\ProjectExplorer.cs
+Namespace: AIStudio.Core
+Classes:
+  ProjectExplorer
+Usings:
+  System
+  System.IO
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\ProjectLoader.cs
+Namespace: AIStudio.Core
+Classes:
+  ProjectLoader
+Methods:
+  LoadProject
+Usings:
+  System
+  System.IO
+  System.Collections.Generic
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\RuntimeManager.cs
+Namespace: AIStudio.Core
+Classes:
+  RuntimeManager
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  System.Net.Http
+  System.Text
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\TabbedEditor.cs
+Namespace: AIStudio.Core
+Classes:
+  TabbedEditor
+Methods:
+  OpenFile
+Usings:
+  System
+  System.IO
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Models\ModelManager.cs
+Namespace: AIStudio.Models
+Classes:
+  ModelManager
+Usings:
+  System
+  System.IO
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Models\ModelManagerUI.cs
+Namespace: AIStudio.Models
+Classes:
+  ModelManagerUI
+Usings:
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Models\ModelRouter.cs
+Namespace: AIStudio.Models
+Classes:
+  ModelRouter
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Models\ModelRuntime.cs
+Namespace: AIStudio.Models
+Classes:
+  ModelRuntime
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  System.Net.Http
+  System.Text
+  System.Threading.Tasks
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Models\ModelSelector.cs
+Namespace: AIStudio.Models
+Classes:
+  ModelSelector
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\AgentMonitorPanel.cs
+Namespace: AIStudio.Panels
+Classes:
+  AgentMonitorPanel
+Methods:
+  Log
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\AIChatPanel.cs
+Namespace: AIStudio.Panels
+Classes:
+  AIChatPanel
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\ArchitectureGraphPanel.cs
+Namespace: AIStudio.Panels
+Classes:
+  ArchitectureGraphPanel
+Methods:
+  AddNode
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\AutomationPanel.cs
+Namespace: AIStudio.Panels
+Classes:
+  AutomationPanel
+Usings:
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\BuildStatusPanel.cs
+Namespace: AIStudio.Panels
+Classes:
+  BuildStatusPanel
+Methods:
+  SetStatus
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\DebugConsole.cs
+Namespace: AIStudio.Panels
+Classes:
+  DebugConsole
+Methods:
+  Log
+Usings:
+  System
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\FileExplorerPanel.cs
+Namespace: AIStudio.Panels
+Classes:
+  FileExplorerPanel
+Usings:
+  System
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\MemoryViewerPanel.cs
+Namespace: AIStudio.Panels
+Classes:
+  MemoryViewerPanel
+Usings:
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\ModelDownloadPanel.cs
+Namespace: AIStudio.Panels
+Classes:
+  ModelDownloadPanel
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\ModelStatusPanel.cs
+Namespace: AIStudio.Panels
+Classes:
+  ModelStatusPanel
+Methods:
+  UpdateStatus
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\PatchPreview.cs
+Namespace: AIStudio.Panels
+Classes:
+  PatchPreview
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\TaskQueuePanel.cs
+Namespace: AIStudio.Panels
+Classes:
+  TaskQueuePanel
+Methods:
+  AddTask
+Usings:
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\BuildConsole.cs
+Namespace: AIStudio.UI
+Classes:
+  BuildConsole
+Usings:
+  System
+  System.Diagnostics
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\CodeEditorWindow.cs
+Namespace: AIStudio.UI
+Classes:
+  CodeEditorWindow
+Usings:
+  System
+  System.Net.Http
+  System.Text
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\DevDashboard.cs
+Namespace: AIStudio.UI
+Classes:
+  DevDashboard
+Usings:
+  System.Windows.Forms
+  AIStudio.UI.Panels
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\IDEWindow.cs
+Namespace: AIStudio.UI
+Classes:
+  IDEWindow
+Usings:
+  System
+  System.IO
+  System.Windows.Forms
+  AIStudio.UI.Panels
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\MainForm.cs
+Namespace: AIStudio.UI
+Classes:
+  MainForm
+Usings:
+  System
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\MainWindow.cs
+Namespace: AIStudio.UI
+Classes:
+  MainWindow
+Methods:
+  Show
+Usings:
+  System.Windows.Forms
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\ModelManagerWindow.cs
+Namespace: AIStudio.UI
+Classes:
+  ModelManagerWindow
+Interfaces:
+  placeholder
+Usings:
+  System
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\MonacoEditor.cs
+Namespace: AIStudio.UI
+Classes:
+  MonacoEditor
+Usings:
+  Microsoft.Web.WebView2.WinForms
+  System.Windows.Forms
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\PluginMarketplaceUI.cs
+Namespace: AIStudio.UI
+Classes:
+  PluginMarketplaceUI
+Usings:
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\WindowRegistry.cs
+Namespace: AIStudio.UI
+Classes:
+  WindowRegistry
+Usings:
+  System
+  System.Collections.Generic
+  System.Windows.Forms
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Workspace\RoslynWorkspaceService.cs
+Namespace: AIStudio.Workspace
+Classes:
+  RoslynWorkspaceService
+Fields:
+  Workspace
+Usings:
+  Microsoft.CodeAnalysis
+  Microsoft.CodeAnalysis.MSBuild
+  System.Threading.Tasks
+  System
+  System
+  System
+  System
+  System
+  System
+
+FILE: C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Workspace\WorkspaceIndexer.cs
+Namespace: AIStudio.Workspace
+Classes:
+  WorkspaceIndexer
+Usings:
+  System
+  System
+  System
+  System
+  System
+  System
+  System.Collections.Generic
+  System.IO

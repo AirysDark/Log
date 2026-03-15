@@ -1,0 +1,81 @@
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Agents\AISidebar.cs
+   inherits: UserControl
+    
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\AIEngine\Runtime\DiffViewer.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\CodeEditor.cs
+   inherits: UserControl
+    
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\CommandPalette.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\MonacoEditor.cs
+   inherits: UserControl
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\PatchDiffViewer.cs
+   inherits: UserControl
+    
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\ProjectExplorer.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Core\TabbedEditor.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Models\ModelSelector.cs
+   inherits: ComboBox
+    
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\AgentMonitorPanel.cs
+   inherits: UserControl
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\AIChatPanel.cs
+   inherits: UserControl
+    
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\ArchitectureGraphPanel.cs
+   inherits: UserControl
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\BuildStatusPanel.cs
+   inherits: UserControl
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\DebugConsole.cs
+   inherits: UserControl
+    
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\FileExplorerPanel.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\ModelDownloadPanel.cs
+   inherits: UserControl
+    
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\ModelStatusPanel.cs
+   inherits: UserControl
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\PatchPreview.cs
+   inherits: UserControl
+    
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\Panels\TaskQueuePanel.cs
+   inherits: UserControl
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\BuildConsole.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\CodeEditorWindow.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\DevDashboard.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\IDEWindow.cs
+   inherits: Form
+    
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\MainForm.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\MainWindow.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\ModelManagerWindow.cs
+   inherits: Form
+
+C:\Users\AirysDark\Documents\projects\AIStudio2\AIStudioApp\UI\MonacoEditor.cs
+   inherits: WebView2
+

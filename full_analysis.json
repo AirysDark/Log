@@ -1,0 +1,2715 @@
+{
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\AgentController.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "AgentController"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Start"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\AgentCoordinator.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "AgentCoordinator"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Execute"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\AICommandDispatcher.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "AICommandDispatcher"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "AIStudio.Core.BuildSystem",
+            "System",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\AISidebar.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "AISidebar"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "AIStudio.Core.Runtime",
+            "System",
+            "System.Threading.Tasks",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "UserControl\n    "
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\AITask.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "AITask"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [
+            "Description",
+            "TargetFile",
+            "Action"
+        ],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\ArchitecturePlanner.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ArchitecturePlanner"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Plan"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\AutoFixEngine.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "AutoFixEngine"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "AIStudio.Core.Runtime",
+            "System",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\AutonomousController.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "AutonomousController"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Start"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Threading",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\AutonomousExecutor.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "AutonomousExecutor"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Run"
+        ],
+        "fields": [],
+        "usings": [
+            "AIStudio.AIEngine.Planner",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\BackgroundAgent.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "BackgroundAgent"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Start"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Threading",
+            "AIStudio.AIEngine.Graph",
+            "AIStudio.AIEngine.Memory",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\BackgroundAIService.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "BackgroundAIService"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "AIStudio.AIEngine.CodeAnalysis",
+            "AIStudio.Core.Runtime",
+            "System",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\CodeAgent.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "CodeAgent"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "AIStudio.Core.Runtime",
+            "System",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\CoderAgent.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "CoderAgent"
+        ],
+        "interfaces": [],
+        "methods": [
+            "GenerateCode"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\DependencyPlanner.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "DependencyPlanner"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Add"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\EmbeddingGenerator.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "EmbeddingGenerator"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Generate"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\InlineSuggestionEngine.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "InlineSuggestionEngine"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "AIStudio.Core.Runtime",
+            "System",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\ModuleGenerator.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ModuleGenerator"
+        ],
+        "interfaces": [],
+        "methods": [
+            "CreateModule"
+        ],
+        "fields": [],
+        "usings": [
+            "System.IO",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\PlannerAgent.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "PlannerAgent"
+        ],
+        "interfaces": [],
+        "methods": [
+            "CreatePlan"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\ProjectWatcher.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "ProjectWatcher"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Start"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.IO"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\ReviewerAgent.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "ReviewerAgent"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Approve"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\SuggestionEngine.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "SuggestionEngine"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "AIStudio.Core.Runtime",
+            "System",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\SuggestionWorker.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "SuggestionWorker"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\TaskExecutor.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "TaskExecutor"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Execute"
+        ],
+        "fields": [],
+        "usings": [
+            "AIStudio.AIEngine.Patch",
+            "AIStudio.AIEngine.Planner.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\TaskGenerator.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "TaskGenerator"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Generate"
+        ],
+        "fields": [],
+        "usings": [
+            "AIStudio.AIEngine.Context",
+            "AIStudio.AIEngine.Planner",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\TaskPlan.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "TaskPlan"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Add"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "AIStudio.AIEngine.Planner.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\TaskPlanner.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "TaskPlanner"
+        ],
+        "interfaces": [],
+        "methods": [
+            "CreatePlan"
+        ],
+        "fields": [],
+        "usings": [
+            "AIStudio.AIEngine.Models",
+            "AIStudio.AIEngine.Planner.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Agents\\TesterAgent.cs": {
+        "namespace": "AIStudio.Agents",
+        "classes": [
+            "TesterAgent"
+        ],
+        "interfaces": [],
+        "methods": [
+            "CreateTest"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\ContextBuilder.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ContextBuilder"
+        ],
+        "interfaces": [],
+        "methods": [
+            "BuildContext"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Text",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\ContextRetriever.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ContextRetriever"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Retrieve"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\ContextRouter.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ContextRouter"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Threading.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\EmbeddingGenerator.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "EmbeddingGenerator"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Generate"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\FileSummary.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "FileSummary"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [
+            "FilePath",
+            "Summary"
+        ],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\FunctionSummary.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "FunctionSummary"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [
+            "Name",
+            "Description"
+        ],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\RepositorySummary.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "RepositorySummary"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Generate"
+        ],
+        "fields": [
+            "Summary"
+        ],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\SnapshotDiff.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "SnapshotDiff"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Compare"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\SnapshotManager.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "SnapshotManager"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Add",
+            "GetLatest"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\VectorMemory.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "VectorMemory"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Store",
+            "Get"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\VectorStore.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "VectorStore"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Store",
+            "Get"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Memory\\WorkspaceSnapshot.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "WorkspaceSnapshot"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [
+            "Timestamp"
+        ],
+        "usings": [
+            "System",
+            "System.Collections.Generic"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\AIClient.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "AIClient"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Net.Http",
+            "System.Text",
+            "System.Threading.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\GPUConfig.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "GPUConfig"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\LlamaServerConnector.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "LlamaServerConnector"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Net.Http",
+            "System.Text",
+            "System.Threading.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\LocalLLMServer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "LocalLLMServer"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Start",
+            "Stop"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Diagnostics",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\LocalModelRunner.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "LocalModelRunner"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Run"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Diagnostics",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\ModelDownloader.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ModelDownloader"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Net.Http",
+            "System.IO",
+            "System.Threading.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\ModelManager.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ModelManager"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Register",
+            "GetModel"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\ModelRegistry.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ModelRegistry"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Register",
+            "Get"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\ModelRouter.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ModelRouter"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Run"
+        ],
+        "fields": [],
+        "usings": [
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\MultiModelRouter.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "MultiModelRouter"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Register",
+            "GetEndpoint"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\OnlineModelRunner.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "OnlineModelRunner"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Net.Http",
+            "System.Threading.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Models\\TokenStreamer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "TokenStreamer"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Net.Http",
+            "System.Threading.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\ArchitectureMap.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ArchitectureMap"
+        ],
+        "interfaces": [],
+        "methods": [
+            "AddModule",
+            "AddDependency"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\ASTSearch.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ASTSearch"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "Microsoft.CodeAnalysis",
+            "Microsoft.CodeAnalysis.CSharp.Syntax"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\BuildAnalyzer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "BuildAnalyzer"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Analyze"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\BuildRunner.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "BuildRunner"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Run"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Diagnostics",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\CallGraphBuilder.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "CallGraphBuilder"
+        ],
+        "interfaces": [],
+        "methods": [
+            "AddCall"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\ChangeTracker.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ChangeTracker"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Record"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\ClassDesigner.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ClassDesigner"
+        ],
+        "interfaces": [],
+        "methods": [
+            "CreateClass"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.IO",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\ClassMap.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ClassMap"
+        ],
+        "interfaces": [],
+        "methods": [
+            "AddRelation"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\CodeIndexer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "CodeIndexer"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Index"
+        ],
+        "fields": [],
+        "usings": [
+            "System.IO",
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\DebugAnalyzer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "DebugAnalyzer"
+        ],
+        "interfaces": [],
+        "methods": [
+            "AnalyzeError"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\DependencyGraph.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "DependencyGraph"
+        ],
+        "interfaces": [],
+        "methods": [
+            "AddDependency"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\DiffViewer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "DiffViewer"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\ErrorAnalyzer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ErrorAnalyzer"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.Collections.Generic"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\ErrorParser.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ErrorParser"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Parse"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\FindReferences.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "FindReferences"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Search"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\FindReferencesService.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "FindReferencesService"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "Microsoft.CodeAnalysis",
+            "Microsoft.CodeAnalysis.FindSymbols",
+            "System.Collections.Generic",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\GoToDefinition.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "GoToDefinition"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Navigate"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\GoToDefinitionService.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "GoToDefinitionService"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "Microsoft.CodeAnalysis",
+            "Microsoft.CodeAnalysis.CSharp",
+            "Microsoft.CodeAnalysis.FindSymbols",
+            "System.Linq",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\MultiFileRefactor.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "MultiFileRefactor"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Apply"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\NavigationService.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "NavigationService"
+        ],
+        "interfaces": [],
+        "methods": [
+            "GoToSymbol"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\PatchEngine.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "PatchEngine"
+        ],
+        "interfaces": [],
+        "methods": [
+            "ApplyPatch"
+        ],
+        "fields": [],
+        "usings": [
+            "System.IO",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\ProjectAnalyzer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ProjectAnalyzer"
+        ],
+        "interfaces": [],
+        "methods": [
+            "ReadFile"
+        ],
+        "fields": [],
+        "usings": [
+            "System.IO",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\ProjectIndexer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ProjectIndexer"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System.Collections.Generic",
+            "System.IO"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\ProjectScaffolder.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "ProjectScaffolder"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Build"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\RefactoringEngine.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "RefactoringEngine"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "AIStudio.Core.Runtime",
+            "System",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\RenameRefactor.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "RenameRefactor"
+        ],
+        "interfaces": [],
+        "methods": [
+            "RenameSymbol"
+        ],
+        "fields": [],
+        "usings": [
+            "System.IO",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\RenameSymbolService.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "RenameSymbolService"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "Microsoft.CodeAnalysis",
+            "Microsoft.CodeAnalysis.Rename",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\RollbackService.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "RollbackService"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Restore"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\RoslynCompletionEngine.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "RoslynCompletionEngine"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "Microsoft.CodeAnalysis.Text",
+            "Microsoft.CodeAnalysis",
+            "Microsoft.CodeAnalysis.CSharp",
+            "Microsoft.CodeAnalysis.Completion",
+            "Microsoft.CodeAnalysis.Host.Mef",
+            "System.Linq",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\RoslynDiagnostics.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "RoslynDiagnostics"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "Microsoft.CodeAnalysis",
+            "Microsoft.CodeAnalysis.CSharp",
+            "System.Collections.Generic"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\RoslynRefactorEngine.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "RoslynRefactorEngine"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "Microsoft.CodeAnalysis",
+            "Microsoft.CodeAnalysis.CSharp",
+            "Microsoft.CodeAnalysis.CSharp.Syntax"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\RoslynWorkspaceLoader.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "RoslynWorkspaceLoader"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "Microsoft.CodeAnalysis.MSBuild",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\SemanticSearch.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "SemanticSearch"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Search"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\SemanticSearchEngine.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "SemanticSearchEngine"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Search"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\SymbolAnalyzer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "SymbolAnalyzer"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "Microsoft.CodeAnalysis",
+            "Microsoft.CodeAnalysis.CSharp.Syntax"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\SymbolGraph.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "SymbolGraph"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System.Collections.Generic",
+            "System.IO"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\SymbolIndexer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "SymbolIndexer"
+        ],
+        "interfaces": [],
+        "methods": [
+            "AddClass",
+            "AddFunction"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Collections.Generic",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\SyntaxTreeAnalyzer.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "SyntaxTreeAnalyzer"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "Microsoft.CodeAnalysis.CSharp",
+            "Microsoft.CodeAnalysis",
+            "System.IO"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\TestGenerator.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "TestGenerator"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Generate",
+            "Test1"
+        ],
+        "fields": [],
+        "usings": [
+            "System.IO",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\AIEngine\\Runtime\\TestRunner.cs": {
+        "namespace": "AIStudio.AIEngine",
+        "classes": [
+            "TestRunner"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Run"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Diagnostics",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\BuildSystem.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "BuildSystem"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System.Diagnostics"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\CodeEditor.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "CodeEditor"
+        ],
+        "interfaces": [],
+        "methods": [
+            "GetText",
+            "SetText"
+        ],
+        "fields": [
+            "host",
+            "Editor"
+        ],
+        "usings": [
+            "System.Windows.Forms",
+            "System.Windows.Forms.Integration",
+            "ICSharpCode.AvalonEdit",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n    "
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\CommandPalette.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "CommandPalette"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\DependencyGraph.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "DependencyGraph"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System.Collections.Generic",
+            "System.IO"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\GhostTextOverlay.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "GhostTextOverlay"
+        ],
+        "interfaces": [],
+        "methods": [
+            "ShowSuggestion"
+        ],
+        "fields": [],
+        "usings": [
+            "ICSharpCode.AvalonEdit",
+            "System.Windows.Media",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\IntelliSensePopup.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "IntelliSensePopup"
+        ],
+        "interfaces": [],
+        "methods": [
+            "SetItems"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\IntelliSenseService.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "IntelliSenseService"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "Microsoft.CodeAnalysis",
+            "Microsoft.CodeAnalysis.Completion",
+            "System.Linq",
+            "System.Threading.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\LocalRuntimeManager.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "LocalRuntimeManager"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Start",
+            "Stop"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Diagnostics",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\MonacoBridge.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "MonacoBridge"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "Microsoft.Web.WebView2.WinForms",
+            "System.Threading.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\MonacoEditor.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "MonacoEditor"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "Microsoft.Web.WebView2.WinForms",
+            "System.Windows.Forms",
+            "System.IO",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\PatchDiffViewer.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "PatchDiffViewer"
+        ],
+        "interfaces": [],
+        "methods": [
+            "LoadDiff"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n    "
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\Program.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "Program"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "AIStudio.UI",
+            "System",
+            "System.Windows.Forms"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\ProjectExplorer.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "ProjectExplorer"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.IO",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\ProjectLoader.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "ProjectLoader"
+        ],
+        "interfaces": [],
+        "methods": [
+            "LoadProject"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.IO",
+            "System.Collections.Generic"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\RuntimeManager.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "RuntimeManager"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System.Net.Http",
+            "System.Text",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Core\\TabbedEditor.cs": {
+        "namespace": "AIStudio.Core",
+        "classes": [
+            "TabbedEditor"
+        ],
+        "interfaces": [],
+        "methods": [
+            "OpenFile"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.IO",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Models\\ModelManager.cs": {
+        "namespace": "AIStudio.Models",
+        "classes": [
+            "ModelManager"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.IO"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Models\\ModelManagerUI.cs": {
+        "namespace": "AIStudio.Models",
+        "classes": [
+            "ModelManagerUI"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Models\\ModelRouter.cs": {
+        "namespace": "AIStudio.Models",
+        "classes": [
+            "ModelRouter"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Models\\ModelRuntime.cs": {
+        "namespace": "AIStudio.Models",
+        "classes": [
+            "ModelRuntime"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System.Net.Http",
+            "System.Text",
+            "System.Threading.Tasks"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Models\\ModelSelector.cs": {
+        "namespace": "AIStudio.Models",
+        "classes": [
+            "ModelSelector"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "ComboBox\n    "
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\AgentMonitorPanel.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "AgentMonitorPanel"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Log"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\AIChatPanel.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "AIChatPanel"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n    "
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\ArchitectureGraphPanel.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "ArchitectureGraphPanel"
+        ],
+        "interfaces": [],
+        "methods": [
+            "AddNode"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\AutomationPanel.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "AutomationPanel"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\BuildStatusPanel.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "BuildStatusPanel"
+        ],
+        "interfaces": [],
+        "methods": [
+            "SetStatus"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\DebugConsole.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "DebugConsole"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Log"
+        ],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "UserControl\n    "
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\FileExplorerPanel.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "FileExplorerPanel"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\MemoryViewerPanel.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "MemoryViewerPanel"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\ModelDownloadPanel.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "ModelDownloadPanel"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n    "
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\ModelStatusPanel.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "ModelStatusPanel"
+        ],
+        "interfaces": [],
+        "methods": [
+            "UpdateStatus"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\PatchPreview.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "PatchPreview"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n    "
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Panels\\TaskQueuePanel.cs": {
+        "namespace": "AIStudio.Panels",
+        "classes": [
+            "TaskQueuePanel"
+        ],
+        "interfaces": [],
+        "methods": [
+            "AddTask"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "UserControl\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\UI\\BuildConsole.cs": {
+        "namespace": "AIStudio.UI",
+        "classes": [
+            "BuildConsole"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.Diagnostics",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\UI\\CodeEditorWindow.cs": {
+        "namespace": "AIStudio.UI",
+        "classes": [
+            "CodeEditorWindow"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.Net.Http",
+            "System.Text",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\UI\\DevDashboard.cs": {
+        "namespace": "AIStudio.UI",
+        "classes": [
+            "DevDashboard"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "AIStudio.UI.Panels",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\UI\\IDEWindow.cs": {
+        "namespace": "AIStudio.UI",
+        "classes": [
+            "IDEWindow"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.IO",
+            "System.Windows.Forms",
+            "AIStudio.UI.Panels"
+        ],
+        "inherits": [
+            "Form\n    "
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\UI\\MainForm.cs": {
+        "namespace": "AIStudio.UI",
+        "classes": [
+            "MainForm"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\UI\\MainWindow.cs": {
+        "namespace": "AIStudio.UI",
+        "classes": [
+            "MainWindow"
+        ],
+        "interfaces": [],
+        "methods": [
+            "Show"
+        ],
+        "fields": [],
+        "usings": [
+            "System.Windows.Forms",
+            "System"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\UI\\ModelManagerWindow.cs": {
+        "namespace": "AIStudio.UI",
+        "classes": [
+            "ModelManagerWindow"
+        ],
+        "interfaces": [
+            "placeholder"
+        ],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.Windows.Forms"
+        ],
+        "inherits": [
+            "Form\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\UI\\MonacoEditor.cs": {
+        "namespace": "AIStudio.UI",
+        "classes": [
+            "MonacoEditor"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "Microsoft.Web.WebView2.WinForms",
+            "System.Windows.Forms",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": [
+            "WebView2\n"
+        ]
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\UI\\PluginMarketplaceUI.cs": {
+        "namespace": "AIStudio.UI",
+        "classes": [
+            "PluginMarketplaceUI"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\UI\\WindowRegistry.cs": {
+        "namespace": "AIStudio.UI",
+        "classes": [
+            "WindowRegistry"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System.Collections.Generic",
+            "System.Windows.Forms"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Workspace\\RoslynWorkspaceService.cs": {
+        "namespace": "AIStudio.Workspace",
+        "classes": [
+            "RoslynWorkspaceService"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [
+            "Workspace"
+        ],
+        "usings": [
+            "Microsoft.CodeAnalysis",
+            "Microsoft.CodeAnalysis.MSBuild",
+            "System.Threading.Tasks",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System"
+        ],
+        "inherits": []
+    },
+    "C:\\Users\\AirysDark\\Documents\\projects\\AIStudio2\\AIStudioApp\\Workspace\\WorkspaceIndexer.cs": {
+        "namespace": "AIStudio.Workspace",
+        "classes": [
+            "WorkspaceIndexer"
+        ],
+        "interfaces": [],
+        "methods": [],
+        "fields": [],
+        "usings": [
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System",
+            "System.Collections.Generic",
+            "System.IO"
+        ],
+        "inherits": []
+    }
+}

@@ -1,0 +1,88 @@
+
+AIStudio.Agents
+   -> AIStudio.AIEngine.CodeAnalysis
+   -> AIStudio.Core.BuildSystem
+   -> AIStudio.Core.Runtime
+   -> AIStudio.AIEngine.Memory
+   -> System
+   -> System.Threading
+   -> System.Threading.Tasks
+   -> System.IO
+   -> System.Windows.Forms
+   -> AIStudio.AIEngine.Graph
+
+AIStudio.AIEngine
+   -> System.Linq
+   -> Microsoft.CodeAnalysis.Host.Mef
+   -> AIStudio.Core.Runtime
+   -> System.Threading.Tasks
+   -> Microsoft.CodeAnalysis.CSharp.Syntax
+   -> System.IO
+   -> Microsoft.CodeAnalysis.Text
+   -> Microsoft.CodeAnalysis.FindSymbols
+   -> System.Windows.Forms
+   -> Microsoft.CodeAnalysis.Completion
+   -> AIStudio.AIEngine.Planner
+   -> Microsoft.CodeAnalysis.Rename
+   -> System.Collections.Generic
+   -> AIStudio.AIEngine.Models
+   -> Microsoft.CodeAnalysis.MSBuild
+   -> System
+   -> AIStudio.AIEngine.Planner.Tasks
+   -> System.Net.Http
+   -> Microsoft.CodeAnalysis.CSharp
+   -> System.Threading
+   -> System.Text
+   -> Microsoft.CodeAnalysis
+   -> System.Diagnostics
+   -> AIStudio.AIEngine.Context
+   -> AIStudio.AIEngine.Patch
+
+AIStudio.Core
+   -> System.Linq
+   -> System.Windows.Forms.Integration
+   -> System
+   -> System.Windows.Media
+   -> System.Collections.Generic
+   -> System.Threading.Tasks
+   -> Microsoft.Web.WebView2.WinForms
+   -> ICSharpCode.AvalonEdit
+   -> AIStudio.UI
+   -> Microsoft.CodeAnalysis
+   -> System.Text
+   -> Microsoft.CodeAnalysis.Completion
+   -> System.IO
+   -> System.Diagnostics
+   -> System.Windows.Forms
+   -> System.Net.Http
+
+AIStudio.Models
+   -> System
+   -> System.Threading.Tasks
+   -> System.Text
+   -> System.IO
+   -> System.Windows.Forms
+   -> System.Net.Http
+
+AIStudio.Panels
+   -> System
+   -> System.Windows.Forms
+
+AIStudio.UI
+   -> System
+   -> Microsoft.Web.WebView2.WinForms
+   -> System.Collections.Generic
+   -> System.Text
+   -> AIStudio.UI.Panels
+   -> System.IO
+   -> System.Diagnostics
+   -> System.Windows.Forms
+   -> System.Net.Http
+
+AIStudio.Workspace
+   -> System
+   -> Microsoft.CodeAnalysis.MSBuild
+   -> System.Threading.Tasks
+   -> System.Collections.Generic
+   -> Microsoft.CodeAnalysis
+   -> System.IO
