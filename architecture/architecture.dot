@@ -1,0 +1,35 @@
+digraph AIStudio {
+rankdir=LR;
+node [shape=box];
+
+"AIStudio.Agents" -> "AIStudio.AIEngine.Memory";
+"AIStudio.Agents" -> "AIStudio.AIEngine.Graph";
+"AIStudio.Agents" -> "AIStudio.Core.BuildSystem";
+"AIStudio.Agents" -> "AIStudio.Core.Runtime";
+"AIStudio.Agents" -> "AIStudio.AIEngine.CodeAnalysis";
+"AIStudio.AIEngine" -> "Microsoft.CodeAnalysis.Text";
+"AIStudio.AIEngine" -> "AIStudio.AIEngine.Patch";
+"AIStudio.AIEngine" -> "AIStudio.AIEngine.Models";
+"AIStudio.AIEngine" -> "Microsoft.CodeAnalysis.CSharp.Syntax";
+"AIStudio.AIEngine" -> "Microsoft.CodeAnalysis.Host.Mef";
+"AIStudio.AIEngine" -> "AIStudio.AIEngine.Planner";
+"AIStudio.AIEngine" -> "Microsoft.CodeAnalysis.CSharp";
+"AIStudio.AIEngine" -> "AIStudio.AIEngine.Planner.Tasks";
+"AIStudio.AIEngine" -> "Microsoft.CodeAnalysis.MSBuild";
+"AIStudio.AIEngine" -> "Microsoft.CodeAnalysis.Completion";
+"AIStudio.AIEngine" -> "Microsoft.CodeAnalysis.FindSymbols";
+"AIStudio.AIEngine" -> "AIStudio.Core.Runtime";
+"AIStudio.AIEngine" -> "Microsoft.CodeAnalysis";
+"AIStudio.AIEngine" -> "AIStudio.AIEngine.Context";
+"AIStudio.AIEngine" -> "Microsoft.CodeAnalysis.Rename";
+"AIStudio.Core" -> "ICSharpCode.AvalonEdit";
+"AIStudio.Core" -> "Microsoft.CodeAnalysis";
+"AIStudio.Core" -> "Microsoft.CodeAnalysis.Completion";
+"AIStudio.Core" -> "Microsoft.Web.WebView2.WinForms";
+"AIStudio.Core" -> "AIStudio.UI";
+"AIStudio.UI" -> "AIStudio.UI.Panels";
+"AIStudio.UI" -> "Microsoft.Web.WebView2.WinForms";
+"AIStudio.Workspace" -> "Microsoft.CodeAnalysis.MSBuild";
+"AIStudio.Workspace" -> "Microsoft.CodeAnalysis";
+
+}
